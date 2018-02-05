@@ -9,7 +9,7 @@
         "*test.py"
     ],
     "python.unitTest.unittestEnabled": false,
-    "python.formatting.provider": "autopep8",
+    "python.formatting.provider": "yapf",
     "python.unitTest.promptToConfigure": false,
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,

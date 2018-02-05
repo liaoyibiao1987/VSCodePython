@@ -548,23 +548,12 @@ def uninstall():
 def usage():
     msg = \
 """%s: A post-install script for the pywin32 extensions.
-
-Typical usage:
-
-> python pywin32_postinstall.py -install
-
-If you installed pywin32 via a .exe installer, this should be run
-automatically after installation, but if it fails you can run it again.
-
-If you installed pywin32 via PIP, you almost certainly need to run this to
-setup the environment correctly.
-
-Execute with script with a '-install' parameter, to ensure the environment
+    
+This should be run automatically after installation, but if it fails you
+can run it again with a '-install' parameter, to ensure the environment
 is setup correctly.
 
-Options:
-  -install  : Configure the Python environment correctly for pywin32.
-  -remove   : Try and remove everything that was installed or copied.
+Additional Options:
   -wait pid : Wait for the specified process to terminate before starting.
   -silent   : Don't display the "Abort/Retry/Ignore" dialog for files in use.
   -quiet    : Don't display progress messages.
