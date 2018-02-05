@@ -1,0 +1,5 @@
+{
+    "python.envFile": "${workspaceFolder}/.virtualenv",
+    "python.pythonPath": "${workspaceFolder}\\.virtualenv\\Scripts\\python.exe",
+   
+}
