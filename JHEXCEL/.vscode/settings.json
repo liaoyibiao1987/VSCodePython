@@ -1,5 +1,17 @@
 {
     "python.envFile": "${workspaceFolder}/.virtualenv",
     "python.pythonPath": "${workspaceFolder}\\.virtualenv\\Scripts\\python.exe",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.unitTest.promptToConfigure": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
    
 }
