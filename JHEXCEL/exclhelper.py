@@ -289,7 +289,7 @@ def loadConfig(configfile='import.ini'):
         echo('Can not find the import.ini')
         return False
     parser = configparser.ConfigParser()
-    parser.read(file)
+    parser.read(file, encoding='utf-8')
     SPATH = parser.get('pathconfig', 'spath').strip()
     DPATH = parser.get('pathconfig', 'dpath').strip()
     filelist = parser.get('otherconfig', 'filelist').strip()

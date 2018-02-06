@@ -1,0 +1,11 @@
+autopep8==1.3.4
+configparser==3.5.0
+isort==4.3.2
+lazy-object-proxy==1.3.1
+mccabe==0.6.1
+pycodestyle==2.3.1
+pypiwin32==220
+pywin32==222
+six==1.11.0
+xlrd==1.1.0
+yapf==0.20.1
